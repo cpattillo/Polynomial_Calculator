@@ -12,6 +12,7 @@ stack until the getline function came across an operator. Once an operator was f
 and removed the top list in the stack. I then pushed the computed polynomial back into the stack.
 
 II.	Linked List and Stack:
+
 I implemented a doubly linked list with a sentinel node. In the Node class I declared the private data members: next, previous,
 coefficient, and degree. In the linked list class, I declared a private data member, sentinel. In the constructor I initialized
 sentinel to a node with the next and previous pointers pointing to sentinel. For the insert and erase methods, I generally declared a
@@ -39,7 +40,8 @@ popping and adding the expression until there was one expression in the stack. I
 with, I did not pop or add any elements. I then returned the linked list in the top element of the stack. The add method sorted the
 expressions with a bubble sort, so the returned expression was in order from largest degree to smallest degree.
 
-III. How to run program
+III. How to run program:
+
 In the main function, I had a loadMineData method that read the polynomials and operators from the file. I had a while loop that gets
 each line. I then checked that line had an operator, and if so I performed the polynomial operations. If the line contained no
 operators, I declared a stringstream object that held each line from the file. I then extracted each element of the polynomial and
